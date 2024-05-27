@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'NeoDunggeunmoPro-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/NeoDunggeunmoPro-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: 'NeoDunggeunmoPro-Regular';
+}
+
+canvas {
+    background-image: url(../img/emoticon.png);
+    background-size: 660px, contain ;
+    background-position: center;
+    display: block;
+    margin: 100px auto 0;
+    border : 1px solid black;
+}
+
+.gameSetting {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 730px;
+    height: 500px;
+}
+
+.gameSettingBox {
+    text-align: center;
+}
+
+.gameSettingBox_1 {
+    margin-bottom: 100px;
+}
+
+.start_btn {
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 50px;
+    border: 0;
+    box-shadow: 0 0 5px #000;
+}
+
+.start_btn:hover {
+    background-color: pink;
+    transition: 1s;
+}
+
+.gmaeManual {
+    margin: 100px auto;
+    text-align: center;
+}
+
+.gmaeManual ul {
+    padding: 15px 0;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+    border-top: 8px solid pink;
+    border-bottom: 8px solid pink;
+    width: 730px;
+}
+
+.gmaeManual li:nth-child(1) {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}

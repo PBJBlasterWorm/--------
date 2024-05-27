@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'NeoDunggeunmoPro-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/NeoDunggeunmoPro-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'NeoDunggeunmoPro-Regular';
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #200e3a;
+}
+
+ul {
+    list-style: none;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper {
+    width: 65vmin;
+    height: 70vmin;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    background: #176b87;
+}
+
+.game-details {
+    color: #b8c6dc;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 20px 27px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.play-board {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template: repeat(30, 1fr) / repeat(30, 1fr);
+    background: #86b6f6;
+    background-size: 100%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5),
+            rgba(255, 255, 255, 0.5)), url('../img/emoticon.png');
+}
+
+.play-board .food {
+    background: #006eff;
+}
+
+.play-board .snake {
+    background: #408fff;
+}
+
+.gmaeManual {
+    margin: 100px auto;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.gmaeManual ul {
+    padding: 15px 0;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+    border-top: 8px solid skyblue;
+    border-bottom: 8px solid blue;
+    color: #fff;
+    width: 500px;
+}
+
+.gmaeManual li:nth-child(1) {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}

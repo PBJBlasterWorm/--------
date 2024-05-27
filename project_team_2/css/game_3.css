@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'NeoDunggeunmoPro-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/NeoDunggeunmoPro-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'NeoDunggeunmoPro-Regular';
+}
+
+
+
+ul {
+    list-style: none;
+}
+
+body {
+    background-color: #ccc;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+
+
+}
+
+.game-text {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(90deg, red, orange, yellow, green, blue, navy, purple);
+    color: violet;
+    left: 0;
+    top: 0;
+    font-size: 50px;
+}
+
+.game-text>button {
+    padding: 15px 35px;
+    border-radius: 10px;
+    color: #fff;
+    background: green;
+    border: 3px solid;
+    border-color: skyblue;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.score {
+    text-align: center;
+    color: blueviolet;
+    font-size: 36px;
+    margin-bottom: 5rem;
+}
+
+.playground>ul {
+    background-image: url(../img/emoticon.png);
+    background-position: center;
+    background-size: 400px;
+    border: 10px solid aqua;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.playground>ul>li {
+    width: 100%;
+    height: 25px;
+}
+
+.playground>ul>li>ul {
+    display: flex;
+}
+
+.playground>ul>li>ul>li {
+    width: 25px;
+    height: 25px;
+    outline: 0px groove #ccc;
+}
+
+.tree {
+    background: violet;
+    border: 1px groove;
+}
+
+.bar {
+    background: skyblue;
+    border: 1px groove;
+}
+
+.z {
+    background: red;
+    border: 1px groove;
+}
+
+.elleft {
+    background: brown;
+    border: 1px groove;
+}
+
+.elright {
+    background: blue;
+    border: 1px groove;
+}
+
+.square {
+    background: yellow;
+    border: 1px groove;
+}
+
+.rz {
+    background-color: #0f0;
+    border: 1px groove;
+}
+
+.gmaeManual {
+    margin: 100px auto;
+    text-align: center;
+}
+
+.gmaeManual ul {
+    padding: 15px 0;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+    border-top: 8px solid #666;
+    border-bottom: 8px solid #666;
+    width: 730px;
+}
+
+.gmaeManual li:nth-child(1) {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}

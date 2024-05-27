@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>핑퐁 게임 (2인용)</title>
+    <link rel="stylesheet" href="../css/game_2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+</head>
+
+<body>
+   
+    <div id="gameContainer">
+         <canvas id="gameBoard" width="800" height="450"></canvas>
+        <div class="score" id="scoreText"></div>
+        <div id="gameOverMenu">
+            <div id="gameMessage"></div>
+        </div>
+        <button id="resetBtn">리셋</button>
+        <button id="backBtn">뒤로가기</button>
+    </div>
+    <div class="menu">
+        <p>※조작법※</p>
+        <p>플레이어 1 조작법</p>
+        <p>위  : W 키</p>
+        <p>아래  : S 키</p>
+        <p>&nbsp;</p>
+        <p>플레이어 2 조작법</p>
+        <p>위  : <i class="fa-solid fa-arrow-up"></i> 키</p>
+        <p>아래  : <i class="fa-solid fa-arrow-down"></i> 키</p>
+    </div>
+
+    <script src="../js/game_2.js"></script>
+</body>
+</html>

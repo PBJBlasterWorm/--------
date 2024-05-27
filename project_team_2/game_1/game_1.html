@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>벽돌 부시기</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="../css/game_1.css">
+</head>
+
+<body>
+    <section class="top_menu"></section>
+    
+    <canvas id="myCanvas" width="730" height="500"></canvas>
+    
+    <section class="gameSetting" id="gameSetting">
+        <img id="paddleImage" src="../img/chek3.png" style="display:contents;">
+        <img id="ballImage" src="../img/ball.png" style="display:contents;">
+        <img id="brickImage" src="../img/brick.png" style="display:contents;">
+
+        <div class="gameSettingBox">
+            <div>
+                <button class="start_btn" onclick="gameStart()">게임 시작</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="gmaeManual">
+        <div>
+            <ul>
+                <li>
+                    ※조작법※
+                </li>
+                <li>
+                    <i class="fa-solid fa-arrow-pointer"></i>&nbsp;마우스 이동
+                </li>
+                <li>
+                    <i class="fa-solid fa-arrow-left"></i>&nbsp;<i class="fa-solid fa-arrow-right"></i>&nbsp;키보드 왼쪽, 오른쪽
+                    방향키
+                </li>
+                <li>&nbsp;</li>
+                <li>※벽돌을 부실때마다 빨리집니다!!※</li>
+            </ul>
+        </div>
+    </section>
+
+    <script src="../js/game_1.js"></script>
+</body>
+
+</html>
